@@ -29,23 +29,24 @@ def ent_p():
         width = 10
         )
     btn_clear.config(command = lambda : clear(label1))
+    BaseNum = str(a)
     label1 = tk.Label(
         win, 
-        text = str(a) + " 단\n\n" 
-        + str(a) + " x 1 = " + str(GuGu(a)[0]) + "\n" 
-        + str(a) + " x 2 = " + str(GuGu(a)[1]) + "\n" 
-        + str(a) + " x 3 = " + str(GuGu(a)[2]) + "\n" 
-        + str(a) + " x 4 = " + str(GuGu(a)[3]) + "\n" 
-        + str(a) + " x 5 = " + str(GuGu(a)[4]) + "\n" 
-        + str(a) + " x 6 = " + str(GuGu(a)[5]) + "\n" 
-        + str(a) + " x 7 = " + str(GuGu(a)[6]) + "\n" 
-        + str(a) + " x 8 = " + str(GuGu(a)[7]) + "\n" 
-        + str(a) + " x 9 = " + str(GuGu(a)[8]),
+        text = 
+        BaseNum + " 단\n\n"
+        + BaseNum + " x 1 = " + str(GuGu(a)[0]) + "\n" 
+        + BaseNum + " x 2 = " + str(GuGu(a)[1]) + "\n" 
+        + BaseNum + " x 3 = " + str(GuGu(a)[2]) + "\n" 
+        + BaseNum + " x 4 = " + str(GuGu(a)[3]) + "\n" 
+        + BaseNum + " x 5 = " + str(GuGu(a)[4]) + "\n" 
+        + BaseNum + " x 6 = " + str(GuGu(a)[5]) + "\n" 
+        + BaseNum + " x 7 = " + str(GuGu(a)[6]) + "\n" 
+        + BaseNum + " x 8 = " + str(GuGu(a)[7]) + "\n" 
+        + BaseNum + " x 9 = " + str(GuGu(a)[8]),
         font = 30)
 
     label1.pack()
     btn_clear.pack()
-
 
 btn = Button(win)
 btn.config(
