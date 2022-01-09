@@ -33,16 +33,16 @@ def ent_p():
     label1 = tk.Label(
         win, 
         text = 
-        BaseNum + " 단\n\n"
-        + BaseNum + " x 1 = " + str(GuGu(a)[0]) + "\n" 
-        + BaseNum + " x 2 = " + str(GuGu(a)[1]) + "\n" 
-        + BaseNum + " x 3 = " + str(GuGu(a)[2]) + "\n" 
-        + BaseNum + " x 4 = " + str(GuGu(a)[3]) + "\n" 
-        + BaseNum + " x 5 = " + str(GuGu(a)[4]) + "\n" 
-        + BaseNum + " x 6 = " + str(GuGu(a)[5]) + "\n" 
-        + BaseNum + " x 7 = " + str(GuGu(a)[6]) + "\n" 
-        + BaseNum + " x 8 = " + str(GuGu(a)[7]) + "\n" 
-        + BaseNum + " x 9 = " + str(GuGu(a)[8]),
+        f'{BaseNum} 단\n\n'
+        f'{BaseNum} x 1 = {str(GuGu(a)[0])}\n'
+        f'{BaseNum} x 2 = {str(GuGu(a)[1])}\n'
+        f'{BaseNum} x 3 = {str(GuGu(a)[2])}\n'
+        f'{BaseNum} x 4 = {str(GuGu(a)[3])}\n'
+        f'{BaseNum} x 5 = {str(GuGu(a)[4])}\n'
+        f'{BaseNum} x 6 = {str(GuGu(a)[5])}\n'
+        f'{BaseNum} x 7 = {str(GuGu(a)[6])}\n'
+        f'{BaseNum} x 8 = {str(GuGu(a)[7])}\n'
+        f'{BaseNum} x 9 = {str(GuGu(a)[8])}\n',
         font = 30)
 
     label1.pack()
